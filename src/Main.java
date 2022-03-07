@@ -13,6 +13,6 @@ public class Main {
         LocalDateTime localDateTime7 = LocalDateTime.of(2021,12,12,21,20,00);
         LocalDateTime[] localDateTimes = {localDateTime1, localDateTime2, localDateTime3, localDateTime4, localDateTime5, localDateTime6, localDateTime7};
         int fee = tollCalculator.getTollFee(car, localDateTimes);
-        System.out.println(fee + "kr");
+        System.out.println(fee + "SEK");
     }
 }
