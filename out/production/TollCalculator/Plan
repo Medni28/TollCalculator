@@ -1,5 +1,0 @@
-Make a list of all types of vehicles that are taxed
-Make a loop on the list for all types of vehicles where the intervals for the different charges are calculated.
-If the duty exceeds SEK 60, the price is automatically set at SEK 60
-Return the list for all vehicle types
-Perform a method that is tested by TollCalculatorTest
