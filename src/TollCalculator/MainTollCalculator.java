@@ -2,7 +2,6 @@ package TollCalculator;
 import java.time.LocalDateTime;
 
 public class MainTollCalculator {
-    public class Main {
         public static void main(String[] args) {
             TollCalculator tollCalculator = new TollCalculator();
             Car car = new Car();
@@ -18,4 +17,3 @@ public class MainTollCalculator {
             System.out.println(fee + "kr");
         }
     }
-}
