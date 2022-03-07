@@ -1,4 +1,5 @@
 package TollCalculator;
 
-public class Vehicle {
+public interface Vehicle {
+    int getFee();
 }
